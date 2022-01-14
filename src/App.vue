@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Button>Testing</Button>
+    <CalendarGrid />
   </div>
 </template>
 
 <script>
-import { Button } from 'ant-design-vue'
+import CalendarGrid from './components/CalendarGrid.vue'
 
 export default {
   name: 'App',
   components: {
-    Button,
+    CalendarGrid,
   }
 }
 </script>
