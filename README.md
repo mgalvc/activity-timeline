@@ -1,4 +1,4 @@
-# activity-timeline
+# Github Activity Timeline Challenge
 
 ## Project setup
 ```
