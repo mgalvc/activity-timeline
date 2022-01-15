@@ -28,7 +28,7 @@ export default {
   props: {
     level: {
       type: Number,
-      default: 1,
+      default: 0,
     },
     date: {
       type: String,
@@ -63,23 +63,23 @@ export default {
   border-radius: 2px;
 }
 
-.level-1 {
+.level-0 {
   background-color: #ebedf0;
 }
 
-.level-2 {
+.level-1 {
   background-color: #9be9a8;
 }
 
-.level-3 {
+.level-2 {
   background-color: #40c463;
 }
 
-.level-4 {
+.level-3 {
   background-color: #30a14e;
 }
 
-.level-5 {
+.level-4 {
   background-color: #216e39;
 }
 </style>
